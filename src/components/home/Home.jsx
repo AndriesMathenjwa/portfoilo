@@ -1,4 +1,5 @@
 import React, { useState, useEffect } from 'react';
+import "./home.css"
 
 const Home = () => {
   const words = [
@@ -49,6 +50,7 @@ const Home = () => {
       <div className="home-parent">
         <div className="home-details">
           <div className="colz">
+            <div className="colz-icon">
             <a href="#">
               <i className='fa fa-facebook-square'></i>
             </a>
@@ -61,6 +63,7 @@ const Home = () => {
             <a href="#">
               <i className='fa fa-twitter'></i>
             </a>
+            </div>
           </div>
 
           <div className="profile-details-name">
@@ -80,6 +83,20 @@ const Home = () => {
                 Knack of building applications with front and back-end operations
               </span>
             </span>
+          </div>
+          <div className="profile-options">
+            <button className='btn primary-btn'>
+              {""}
+              Hire Me{" "}
+            </button>
+            <a href="#">
+              <button className='btn highlighted-btn'>WhatsApp me</button>
+            </a>
+          </div>
+        </div>
+        <div className="profile-picture">
+          <div className="profile-picture-background">
+
           </div>
         </div>
       </div>

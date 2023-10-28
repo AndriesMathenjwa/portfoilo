@@ -1,8 +1,9 @@
-import Home from "./components/home/Home";
+import "../index.css"
+import Profile from "./components/home/Profile";
 
 const App = () => {
   return <div className="app">
-    < Home />
+    <Profile />
   </div>;
 };
 
